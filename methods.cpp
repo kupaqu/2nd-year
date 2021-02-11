@@ -35,7 +35,7 @@ typedef struct Circle {
     }
 
     double circle_to_x() {
-        double result = abs(x) - radius;
+        double result = abs(y) - radius;
         if (result > 0)
             return result;
         return 0;
