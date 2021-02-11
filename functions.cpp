@@ -27,7 +27,7 @@ double from_another_circle(Circle* c1, Circle* c2) {
 }
 
 double circle_to_x(Circle* c) {
-    double result = abs(c->x) - c->radius;
+    double result = abs(c->y) - c->radius;
     if (result > 0)
         return result;
     return 0;
