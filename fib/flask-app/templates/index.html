@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Число Фибоначчи</title>
+</head>
+<body>
+    {% if message %}
+	<p>{{ message }}</p>
+    {% endif %}
+
+    <form action="" method="post">
+	<p>
+	    <label for="whatnum">Введите номер нужного числа Фибоначчи</label>
+	    <input type="number" name="whatnum">
+	</p>
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+</body>
